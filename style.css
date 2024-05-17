@@ -171,11 +171,9 @@ ul li a:hover{
 
 /*Background Parallax*/
 body {
-    position: ; 
     width: 100%; 
     height: 100%; 
     background: radial-gradient(ellipse at bottom, var(--back-color1) 0%, var(--back-color2) 100%);
-    overflow: ;
   }
   
   #stars {
