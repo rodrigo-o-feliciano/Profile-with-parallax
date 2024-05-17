@@ -25,8 +25,8 @@
     --back-botao-hover: rgba(0, 0, 0, 0.25);
     --back-icon-hover: rgb(0, 0, 0, 0.2);
     --switch-mode-icon: url(./assets/sun.svg);
-    --back-color1: #e3ab3b;
-    --back-color2: #f9bccf;
+    --back-color1: #f9bccf;
+    --back-color2: #e3ab3b;
 }
 
 body *{
