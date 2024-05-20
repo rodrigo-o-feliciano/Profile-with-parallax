@@ -1,6 +1,6 @@
 function detectarDevTools() {
     var devToolsAberto = false;
-    var threshold = 160; // Limite de tamanho que geralmente indica que o DevTools está aberto
+    var threshold = 80; // Limite de tamanho que geralmente indica que o DevTools está aberto
 
     function checkDevTools() {
         if (window.outerWidth - window.innerWidth > threshold || window.outerHeight - window.innerHeight > threshold) {
