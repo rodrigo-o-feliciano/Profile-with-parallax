@@ -1,4 +1,10 @@
 function detectarDevTools() {
+    // Verifica se o dispositivo é móvel
+    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+        return; // Sai da função se for um dispositivo móvel
+    }
+
     var devToolsAberto = false;
     var threshold = 160; // Limite de tamanho que geralmente indica que o DevTools está aberto
 
@@ -15,7 +21,6 @@ function detectarDevTools() {
 
     function devToolsDetectado() {
         console.log('DevTools foi aberto');
-        // Aqui você pode adicionar ações como redirecionar a página ou exibir uma mensagem
         window.location.replace('https://www.google.com/');
     }
 
